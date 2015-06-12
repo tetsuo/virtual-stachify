@@ -1,0 +1,34 @@
+{
+  "name": "virtual-stachify",
+  "version": "0.1.0",
+  "description": "browserify transform for precompiling stache using virtual-stache",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetsuo/virtual-stachify.git"
+  },
+  "keywords": [
+    "virtual-dom",
+    "virtual-stache",
+    "template",
+    "mustache",
+    "browserify"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetsuo/virtual-stachify/issues"
+  },
+  "homepage": "https://github.com/tetsuo/virtual-stachify#readme",
+  "dependencies": {
+    "through2": "^2.0.0",
+    "virtual-stache": "^0.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "tap": "^1.2.0"
+  }
+}
